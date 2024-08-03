@@ -1,16 +1,37 @@
 # contact_list_app
 
-A new Flutter project.
+O Contact List App é um aplicativo Flutter que permite aos usuários gerenciar uma lista de contatos. Ele fornece uma interface amigável para adicionar, visualizar e excluir contatos.
 
-## Getting Started
+## Instalação
+Siga os passos abaixo para configurar o projeto localmente:
 
-This project is a starting point for a Flutter application.
+ **Clone o repositório:**
+   ```sh
+   git clone https://github.com/seu-usuario/contact-list-app.git
 
-A few resources to get you started if this is your first Flutter project:
+**Navegue até o diretório do projeto:**
+cd contact-list-app
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Instale as dependências:**
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Estrutura do Projeto
+contact_list_app/
+├── android/
+├── build/
+├── ios/
+├── lib/
+│   ├── main.dart
+│   ├── models/
+│   │   └── contact.dart
+│   ├── screens/
+│   │   └── contact_list_screen.dart
+│   ├── widgets/
+│   │   ├── contact_item.dart
+│   │   └── contact_form.dart
+├── test/
+│   └── widget_test.dart
+├── .gitignore
+├── pubspec.yaml
+└── README.md
